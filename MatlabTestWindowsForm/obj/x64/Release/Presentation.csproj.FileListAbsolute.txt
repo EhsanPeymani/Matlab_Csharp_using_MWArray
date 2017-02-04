@@ -1,0 +1,12 @@
+C:\CS\MATLAB root\MATLAB Compiler Tests\Visual Studio Projects\Main Project\MatlabTestWindowsForm\obj\x64\Release\MatlabTestWindowsForm.SimpleFunctionsForm.resources
+C:\CS\MATLAB root\MATLAB Compiler Tests\Visual Studio Projects\Main Project\MatlabTestWindowsForm\obj\x64\Release\MatlabTestWindowsForm.Properties.Resources.resources
+C:\CS\MATLAB root\MATLAB Compiler Tests\Visual Studio Projects\Main Project\MatlabTestWindowsForm\obj\x64\Release\Presentation.csproj.GenerateResource.Cache
+C:\CS\MATLAB root\MATLAB Compiler Tests\Visual Studio Projects\Main Project\MatlabTestWindowsForm\bin\x64\Release\MatlabTestWindowsForm.exe
+C:\CS\MATLAB root\MATLAB Compiler Tests\Visual Studio Projects\Main Project\MatlabTestWindowsForm\bin\x64\Release\MatlabTestWindowsForm.pdb
+C:\CS\MATLAB root\MATLAB Compiler Tests\Visual Studio Projects\Main Project\MatlabTestWindowsForm\bin\x64\Release\MatlabTestWindowsForm.XML
+C:\CS\MATLAB root\MATLAB Compiler Tests\Visual Studio Projects\Main Project\MatlabTestWindowsForm\bin\x64\Release\Matlab.dll
+C:\CS\MATLAB root\MATLAB Compiler Tests\Visual Studio Projects\Main Project\MatlabTestWindowsForm\bin\x64\Release\MatlabExportedFunctions.dll
+C:\CS\MATLAB root\MATLAB Compiler Tests\Visual Studio Projects\Main Project\MatlabTestWindowsForm\bin\x64\Release\Matlab.pdb
+C:\CS\MATLAB root\MATLAB Compiler Tests\Visual Studio Projects\Main Project\MatlabTestWindowsForm\obj\x64\Release\Presentation.csprojResolveAssemblyReference.cache
+C:\CS\MATLAB root\MATLAB Compiler Tests\Visual Studio Projects\Main Project\MatlabTestWindowsForm\obj\x64\Release\MatlabTestWindowsForm.exe
+C:\CS\MATLAB root\MATLAB Compiler Tests\Visual Studio Projects\Main Project\MatlabTestWindowsForm\obj\x64\Release\MatlabTestWindowsForm.pdb

@@ -1,0 +1,6 @@
+C:\CS\MATLAB root\MATLAB Compiler Tests\Visual Studio Projects\Main Project\Matlab\bin\x64\Release\Matlab.dll
+C:\CS\MATLAB root\MATLAB Compiler Tests\Visual Studio Projects\Main Project\Matlab\bin\x64\Release\Matlab.pdb
+C:\CS\MATLAB root\MATLAB Compiler Tests\Visual Studio Projects\Main Project\Matlab\bin\x64\Release\MatlabExportedFunctions.dll
+C:\CS\MATLAB root\MATLAB Compiler Tests\Visual Studio Projects\Main Project\Matlab\obj\x64\Release\Matlab.csprojResolveAssemblyReference.cache
+C:\CS\MATLAB root\MATLAB Compiler Tests\Visual Studio Projects\Main Project\Matlab\obj\x64\Release\Matlab.dll
+C:\CS\MATLAB root\MATLAB Compiler Tests\Visual Studio Projects\Main Project\Matlab\obj\x64\Release\Matlab.pdb
