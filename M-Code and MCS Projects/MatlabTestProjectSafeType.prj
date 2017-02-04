@@ -1,0 +1,169 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="1732230758" file="C:\CS\MATLAB root\MATLAB Compiler Tests\MatlabTestProjectSafeType.prj" location="C:\CS\MATLAB root\MATLAB Compiler Tests" name="MatlabTestProjectSafeType" preferred-package-location="C:\CS\MATLAB root\MATLAB Compiler Tests\MatlabTestProjectSafeType\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.library" target-name="Library Compiler">
+    <param.appname>MatlabTestProjectSafeType</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>Ehsan Peymani</param.authnamewatermark>
+    <param.email>ehsan.peymani@mhwirth.com</param.email>
+    <param.company>MHWirth</param.company>
+    <param.summary />
+    <param.description />
+    <param.screenshot>C:\Users\247699\Pictures\MHWirth_Color_Standard_300dpi_print.bmp</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\MHWirth\MatlabTestProjectSafeType\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\MatlabTestProjectSafeType\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\MatlabTestProjectSafeType\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\MatlabTestProjectSafeType\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\MatlabTestProjectSafeType</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.target.type>subtarget.net.component</param.target.type>
+    <param.support.packages />
+    <param.namespace>MatlabExportedFunctionsSafeType</param.namespace>
+    <param.classorg />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MatlabExportedFunctionsSafeType</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.user.only.registration>false</param.user.only.registration>
+    <param.net.framework>option.net.framework.default</param.net.framework>
+    <param.assembly.type>false</param.assembly.type>
+    <param.encryption.key.file />
+    <param.net.enable.remoting>false</param.net.enable.remoting>
+    <param.net.tsa.enable>true</param.net.tsa.enable>
+    <param.net.tsa.assembly>${PROJECT_ROOT}\Visual Studio Projects\Main Project Safe Mode\MatlabTestWindowsFormSafeType\Interface\bin\Debug\Interface.dll</param.net.tsa.assembly>
+    <param.net.tsa.interface />
+    <param.net.tsa.namespace>MatlabExportedFunctionsSafeType</param.net.tsa.namespace>
+    <param.net.tsa.superclass>MatlabFunctionsTypeSafe</param.net.tsa.superclass>
+    <param.net.tsa.metadata />
+    <param.net.tsa.metadata.assembly>${PROJECT_ROOT}\Visual Studio Projects\Main Project Safe Mode\MatlabTestWindowsFormSafeType\Interface\bin\Debug\Interface.dll</param.net.tsa.metadata.assembly>
+    <param.net.saved.interface>Interface.IMatlab</param.net.saved.interface>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.support.packages />
+      <param.classorg />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.user.only.registration />
+      <param.net.framework />
+      <param.assembly.type />
+      <param.encryption.key.file />
+      <param.net.enable.remoting />
+      <param.net.tsa.interface />
+      <param.net.tsa.namespace />
+      <param.net.tsa.metadata />
+      <param.net.tsa.metadata.assembly />
+    </unset>
+    <fileset.exports>
+      <file>${PROJECT_ROOT}\add.m</file>
+      <file>${PROJECT_ROOT}\DisplayPlot.m</file>
+      <file>${PROJECT_ROOT}\makesquare.m</file>
+      <file>${PROJECT_ROOT}\makesquare_full.m</file>
+      <file>${PROJECT_ROOT}\makesquare_in_out_structure.m</file>
+      <file>${PROJECT_ROOT}\makesquare_in_vector.m</file>
+      <file>${PROJECT_ROOT}\makesquare_structure.m</file>
+      <file>${PROJECT_ROOT}\PlotMesh.m</file>
+    </fileset.exports>
+    <fileset.classes>
+      <entity.package name="">
+        <entity.class name="MatlabSimpleFunctions">
+          <file>${PROJECT_ROOT}\add.m</file>
+        </entity.class>
+        <entity.class name="MatlabFunctions">
+          <file>${PROJECT_ROOT}\makesquare.m</file>
+          <file>${PROJECT_ROOT}\makesquare_full.m</file>
+          <file>${PROJECT_ROOT}\makesquare_in_out_structure.m</file>
+          <file>${PROJECT_ROOT}\makesquare_in_vector.m</file>
+          <file>${PROJECT_ROOT}\makesquare_structure.m</file>
+        </entity.class>
+        <entity.class name="MatlabPlottingFunctions">
+          <file>${PROJECT_ROOT}\DisplayPlot.m</file>
+          <file>${PROJECT_ROOT}\PlotMesh.m</file>
+        </entity.class>
+        <entity.class name="MatlabFunctionsTypeSafe">
+          <file>${PROJECT_ROOT}\add.m</file>
+          <file>${PROJECT_ROOT}\DisplayPlot.m</file>
+          <file>${PROJECT_ROOT}\makesquare.m</file>
+          <file>${PROJECT_ROOT}\makesquare_full.m</file>
+          <file>${PROJECT_ROOT}\makesquare_in_out_structure.m</file>
+          <file>${PROJECT_ROOT}\makesquare_in_vector.m</file>
+          <file>${PROJECT_ROOT}\makesquare_structure.m</file>
+          <file>${PROJECT_ROOT}\PlotMesh.m</file>
+        </entity.class>
+      </entity.package>
+    </fileset.classes>
+    <fileset.resources />
+    <fileset.depfun />
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\MatlabTestProjectSafeType\for_testing" name="MatlabExportedFunctionsSafeType_overview.html" optional="false">C:\CS\MATLAB root\MATLAB Compiler Tests\MatlabTestProjectSafeType\for_testing\MatlabExportedFunctionsSafeType_overview.html</file>
+      <file location="${PROJECT_ROOT}\MatlabTestProjectSafeType\for_testing" name="MatlabFunctionsTypeSafeIMatlab.dll" optional="false">C:\CS\MATLAB root\MATLAB Compiler Tests\MatlabTestProjectSafeType\for_testing\MatlabFunctionsTypeSafeIMatlab.dll</file>
+      <file location="${PROJECT_ROOT}\MatlabTestProjectSafeType\for_testing" name="readme.txt" optional="true">C:\CS\MATLAB root\MATLAB Compiler Tests\MatlabTestProjectSafeType\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\MatlabTestProjectSafeType\for_testing" name="MatlabExportedFunctionsSafeTypeNative.dll" optional="false">C:\CS\MATLAB root\MATLAB Compiler Tests\MatlabTestProjectSafeType\for_testing\MatlabExportedFunctionsSafeTypeNative.dll</file>
+      <file location="${PROJECT_ROOT}\MatlabTestProjectSafeType\for_testing" name="MatlabExportedFunctionsSafeType.dll" optional="false">C:\CS\MATLAB root\MATLAB Compiler Tests\MatlabTestProjectSafeType\for_testing\MatlabExportedFunctionsSafeType.dll</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2016b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.1</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
