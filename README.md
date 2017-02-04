@@ -14,3 +14,7 @@ The solution has two projects:
 1. Presentation project which is a WinForm project. This project refers to the second project in the solution, but has no reference to MATLAB data conversion API (MWArray) or the generated .NET assemblies. All data types are .NET native types.
 
 2. Matlab Class library, which creates an abstraction layer for MATLAB API and MATLAB .NET libraries.
+
+
+To be able to run the application, you need to have MATALAB Runtime v9.1 installed. Get it for free from https://se.mathworks.com/supportfiles/downloads/R2016b/deployment_files/R2016b/installers/win64/MCR_R2016b_win64_installer.exe
+
