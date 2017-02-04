@@ -8,5 +8,7 @@ The generated MATLAB .NET Assembly is found in Matlab .NET Libraries folder.
 Read the readme file in Matlab folder, for details of implementation and requirements.
 
 The solution has two projects:
+
 1. Presentation project which is a WinForm project. This project refers to the second project in the solution, but has no reference to MATLAB data conversion API (MWArray) or the generated .NET assemblies. All data types are .NET native types.
+
 2. Matlab Class library, which creates an abstraction layer for MATLAB API and MATLAB .NET libraries.
