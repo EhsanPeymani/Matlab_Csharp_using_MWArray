@@ -4,7 +4,7 @@ Created by: Ehsan Peymani
 Objective: This Matlab class library acts as the busines layer for deployment of the MATLAB .NET assemblies.
 This class library is to use the MATLAB .NET assembly (which is not type safe), and use the MWArray API.
 
-MATLAB Component: The MATLAB .NET assemblies are generated using MATLAB Compiler SDK (compiler: Microsoft SDK 7.1)
+MATLAB Component: The MATLAB .NET assemblies are generated using MATLAB Compiler SDK (compiler: Microsoft Visual C++ 2013 Professional)
 
 Important: ==> Platform target must be set to x64.
 Important: ==> You need MATLAB Runtime v90 (MATLAB 8.6 (2015b) and MATLAB Compiler SDK 6.1)
