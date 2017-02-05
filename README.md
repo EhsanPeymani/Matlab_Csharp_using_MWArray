@@ -7,7 +7,7 @@ MATLAB M-Code and MATLAB Compiler SDK projects are in M-Code and MCS Projects	fo
 
 The generated MATLAB .NET Assembly is found in Matlab .NET Libraries folder.
 
-Read the readme file in Matlab folder, for details of implementation and requirements.
+IMPORTANT >>> Read the readme file in Matlab folder, for details of implementation and requirements.
 
 The solution has two projects:
 
@@ -16,5 +16,5 @@ The solution has two projects:
 2. Matlab Class library, which creates an abstraction layer for MATLAB API and MATLAB .NET libraries.
 
 
-To be able to run the application, you need to have MATALAB Runtime v9.1 installed. Get it for free from https://se.mathworks.com/supportfiles/downloads/R2016b/deployment_files/R2016b/installers/win64/MCR_R2016b_win64_installer.exe
+To be able to run the application, you need to have MATALAB Runtime v9.1 installed. Get it for free from https://se.mathworks.com/supportfiles/downloads/R2015b/deployment_files/R2015b/installers/win64/MCR_R2015b_win64_installer.exe
 
