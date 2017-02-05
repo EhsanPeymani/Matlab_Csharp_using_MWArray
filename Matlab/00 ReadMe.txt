@@ -7,7 +7,8 @@ This class library is to use the MATLAB .NET assembly (which is not type safe), 
 MATLAB Component: The MATLAB .NET assemblies are generated using MATLAB Compiler SDK (compiler: Microsoft SDK 7.1)
 
 Important: ==> Platform target must be set to x64.
-Important: ==> You need MATLAB Runtime v91 (MATLAB 9.1 and MATLAB Compiler SDK 6.3)
+Important: ==> You need MATLAB Runtime v90 (MATLAB 8.6 (2015b) and MATLAB Compiler SDK 6.1)
+Important: ==> Make sure the reference to MWArray API is established correctly at your PC.
 
 References: This class library requires to reference to the following files:
 - MWArray API, after installing the run-time engine (2016b), found at C:\Program Files\MATLAB\MATLAB Runtime\v91\toolbox\dotnetbuilder\bin\win64\v2.0

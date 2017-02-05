@@ -53,8 +53,8 @@ namespace MatlabTestWindowsForm
             var num1 = formHelper.GeneratedRandomVector(dim);
             var num2 = formHelper.GeneratedRandomVector(dim);
 
-            resultTextBox1.Text = string.Format("Vector 1:\n {0}", formHelper.FormatVector(num1, 10));
-            resultTextBox2.Text = string.Format("Vector 2:\n {0}", formHelper.FormatVector(num2, 10));
+            resultTextBox1.Text = string.Format("Vector 1:\n{0}", formHelper.FormatVector(num1, 10));
+            resultTextBox2.Text = string.Format("Vector 2:\n{0}", formHelper.FormatVector(num2, 10));
 
             var result = _simpleMatlab.AddVectors(num1, num2);
 
@@ -78,12 +78,12 @@ namespace MatlabTestWindowsForm
             var num1 = formHelper.GeneratedRandomMatrix(rows, cols);
             var num2 = formHelper.GeneratedRandomMatrix(rows, cols);
 
-            resultTextBox1.Text = string.Format("Matrix 1:\n {0}", formHelper.FormatMatrix(num1, 10));
-            resultTextBox2.Text = string.Format("Matrix 2:\n {0}", formHelper.FormatMatrix(num2, 10));
+            resultTextBox1.Text = string.Format("Matrix 1:\n{0}", formHelper.FormatMatrix(num1, 10));
+            resultTextBox2.Text = string.Format("Matrix 2:\n{0}", formHelper.FormatMatrix(num2, 10));
 
             var result = _simpleMatlab.AddMatrices(num1, num2);
 
-            resultTextBox3.Text = string.Format("Result Matrix:\n {0}", formHelper.FormatMatrix(result, 15));
+            resultTextBox3.Text = string.Format("Result Matrix:\n{0}", formHelper.FormatMatrix(result, 15));
         }
 
         private void PlotMeshbutton_Click(object sender, EventArgs e)
@@ -162,7 +162,7 @@ namespace MatlabTestWindowsForm
 
             resultTextBox1.Text = string.Format("The generated matrix:\n{0}", formHelper.FormatMatrix(magicMatrix, 10));
 
-            resultTextBox2.Text = string.Format("The matrix determinant:  {0}\n\n\n", determinant);
+            resultTextBox2.Text = string.Format("The matrix determinant: {0}\n\n\n", determinant);
 
             resultTextBox2.Text += string.Format("The matrix eigenvalues: \n{0}", formHelper.FormatVector(eigenvalues, 10));
         }
@@ -205,7 +205,7 @@ namespace MatlabTestWindowsForm
             resultTextBox1.Text = string.Format("The generated matrix:\n{0}",
                 formHelper.FormatMatrix(matlabInformation.Matrix, 10));
 
-            resultTextBox2.Text = string.Format("The matrix determinant:  {0}\n\n\n", matlabInformation.Determinant);
+            resultTextBox2.Text = string.Format("The matrix determinant: {0}\n\n\n", matlabInformation.Determinant);
 
             resultTextBox2.Text += string.Format("The matrix eigenvalues: \n{0}",
                 formHelper.FormatVector(matlabInformation.Eigenvalues, 10));
@@ -237,7 +237,7 @@ namespace MatlabTestWindowsForm
             resultTextBox1.Text = string.Format("The generated matrix:\n{0}",
                 formHelper.FormatMatrix(matlabInformation.Matrix, 10));
 
-            resultTextBox2.Text = string.Format("The matrix determinant:  {0}\n\n\n", matlabInformation.Determinant);
+            resultTextBox2.Text = string.Format("The matrix determinant: {0}\n\n\n", matlabInformation.Determinant);
 
             resultTextBox2.Text += string.Format("The matrix eigenvalues: \n{0}",
                 formHelper.FormatVector(matlabInformation.Eigenvalues, 10));

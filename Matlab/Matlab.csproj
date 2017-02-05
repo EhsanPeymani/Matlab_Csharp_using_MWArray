@@ -55,7 +55,7 @@
     </Reference>
     <Reference Include="MWArray, Version=2.16.1.0, Culture=neutral, PublicKeyToken=e1d84a0da19db86f, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files\MATLAB\MATLAB Runtime\v91\toolbox\dotnetbuilder\bin\win64\v2.0\MWArray.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files\MATLAB\MATLAB Runtime\v90\toolbox\dotnetbuilder\bin\win64\v2.0\MWArray.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -77,9 +77,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="00 ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
