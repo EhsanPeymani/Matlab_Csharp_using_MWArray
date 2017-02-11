@@ -8,6 +8,7 @@ MATLAB M-Code and MATLAB Compiler SDK projects are in M-Code and MCS Projects	fo
 The generated MATLAB .NET Assembly is found in Matlab .NET Libraries folder.
 
 IMPORTANT >>> Read the readme file in Matlab folder, for details of implementation and requirements.
+IMPORTANT >>> Remember to handle exceptions (try-catch) when you pass objects between MATLAB and .NET.
 
 The solution has two projects:
 
